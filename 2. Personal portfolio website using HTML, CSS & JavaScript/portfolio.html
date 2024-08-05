@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website using HTML, CSS & JavaScript</title>
+    <link rel="stylesheet" href="portfolio-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>Mohammed sajid ahmed</h1>
+
+        <div class="header-more">
+          <div><a href="#intro-section" class="active">Home</a></div>
+          <div><a href="#about-section">About</a></div>
+          <div><a href="#res-section">Resume</a></div>
+          <div><a href="#proj-section">Projects</a></div>
+          <div><a href="#cont-section">Contact</a></div>
+        </div>
+
+        <div class="hamburger-menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </header>
+
+      <div class="introduction-section section" id="intro-section">
+        <div class="introduction">
+          <div class="hello">Hello!</div>
+          <h1 class="me">
+            I'm
+            <span class="name">Mohammed Sajid Ahmed <br /> </span>
+          </h1>
+          <div class="profession">Aspiring Frontend Developer</div>
+          <a
+            class="my-work-link"
+            href="https://github.com/mohammedsajidahmed"
+            target="_blank"
+            >MY WORKS</a
+          >
+        </div>
+        <img class="my-image" src="/img-removebg.png" alt="" />
+      </div>
+
+      <div class="about-me-section section" id="about-section">
+        <div class="more-info-about-me">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            "
+          >
+            <img src="/20230121_184324.jpg" alt="" />
+
+            <div class="details">
+              <p>Name: Sajid ahmed mohammed</p>
+              <p>Job role: Web Developer Intern</p>
+              <p>Experience: 3 years 5 months</p>
+              <p>Address: Hyderabad, India</p>
+            </div>
+          </div>
+          <div class="strengths">
+            <p>HTML 95%</p>
+            <progress id="file" value="95" max="100"></progress>
+
+            <p>CSS 80%</p>
+            <progress id="file" value="80" max="100"></progress>
+
+            <p>JavaScript 80%</p>
+            <progress id="file" value="80" max="100"></progress>
+
+            <p>ReactJS 70%</p>
+            <progress id="file" value="70" max="100"></progress>
+
+            <p>BootStrap 75%</p>
+            <progress id="file" value="75" max="100"></progress>
+          </div>
+        </div>
+        <div class="about-me-details">
+          <h1>About Me</h1>
+          <p class="content">
+            With over 3 years of experience in the field of Seller Support,
+            accompanied by a Bachelor's degree in Engineering. Proficient in Web
+            Development/Front End Development. Detail-oriented, analytical, and
+            self-driven programmer with extensive experience building
+            user-facing applications. Coordinated and collaborative team player
+            with attention to detail, web design skills, and ability to
+            contribute to code base improvement initiatives and UX improvement
+            projects. Demonstarted success in leading impactful projects and
+            providing efficient mentorship.
+          </p>
+
+          <label class="profile-info profile-info-1">
+            <div>Profle:</div>
+            <span>Web Development/Frontend development</span>
+          </label>
+
+          <label class="profile-info">
+            <div>Domain:</div>
+            <span>Software Engineering</span>
+          </label>
+
+          <label class="profile-info">
+            <div>Education:</div>
+            <span>Bachelor of Technology</span>
+          </label>
+
+          <label class="profile-info">
+            <div>Languages:</div>
+            <span>English, Hindi</span>
+          </label>
+
+          <label class="profile-info">
+            <div>Technical Skills:</div>
+
+            <span
+              >HTML5, CSS3, BootStrap, JavaScript, ReactJS, Restful APIs &
+              Figma</span
+            >
+          </label>
+
+          <label class="profile-info">
+            <div>Interests:</div>
+
+            <span>Fitness, bodybuilding, boxing</span>
+          </label>
+
+          <div class="projects">
+            <p><span class="projects-no">10+</span> Projects completed</p>
+
+            <a
+              class="linkedin-btn"
+              target="_blank"
+              href="https://www.linkedin.com/in/sajid-ahmed-mohammed-a96825177/"
+              >LINKEDIN
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-section section" id="res-section">
+        <h1>Resume</h1>
+        <p>
+          Aspiring Web Developer | Web Developer intern at CodSoft internship
+          program. Skilled in HTML, CSS, JavaScript & ReactJS.
+        </p>
+      </div>
+
+      <div class="experience-section">
+        <h1 class="experience-heading">Experience</h1>
+        <hr />
+        <div class="experience-container">
+          <div class="experience-1">
+            <h2 class="experience-timeline">Oct 2020-Feb 2024</h2>
+            <h2 class="designation">SELLER SUPPORT ASSOCIATE</h2>
+            <p class="company">AMAZON</p>
+            <p>
+              Amazon.com, Inc., doing business as Amazon, is an American
+              multinational technology company, engaged in e-commerce, cloud
+              computing, online advertising, digital streaming, and artificial
+              intelligence.
+            </p>
+            <ul>
+              <li>
+                Responsible for supporting multiple Seller accounts while
+                ensuring quality service.
+              </li>
+              <li>
+                Improved customer satisfaction by 13% in three months, according
+                to internal Seller surveys.
+              </li>
+              <li>
+                Reduced Seller pain points and contacts by 10% through driving
+                process improvements.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-2">
+            <h2 class="experience-timeline">Aug 2020-Sep 2020</h2>
+            <h2 class="designation">PROCESS ASSOCIATE</h2>
+            <p class="company">AGS HEALTH</p>
+            <p>
+              AGS Health is the premier brand for healthcare revenue cycle
+              solutions that provides healthcare billing, coding, and customized
+              analytics solutions to some of the nation’s largest healthcare
+              organizations.
+            </p>
+            <ul>
+              <li>
+                Assisted customers in filing claims through the insurance
+                processes and policy lifecycle.
+              </li>
+              <li>
+                Collaborated with Teams in order to increase customer
+                satisfaction.
+              </li>
+              <li>
+                Deliver services by exceeding job expectations, as per the
+                business requirement timelines.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-section">
+        <h1 class="education-heading">Education</h1>
+        <hr />
+        <div class="education-container">
+          <div class="education-1">
+            <h2 class="education-timeline">2014-2018</h2>
+            <h2 class="education">
+              Bachelor of Technology in Civil Engineering
+            </h2>
+            <p class="company">CMR COLLEGE OF ENGINEERING & TECHNOLOGY</p>
+            <p>Grade: First class distinction.</p>
+          </div>
+
+          <div class="education-2">
+            <h2 class="education-timeline">2012-2014</h2>
+            <h2 class="designation">Board of Intermediate Education</h2>
+            <p class="company">SRI CHAITANYA JUNIOR KALASALA</p>
+            <p>Grade: First class distinction.</p>
+          </div>
+        </div>
+      </div>
+
+      <a
+        class="download-cv-btn"
+        target="_blank"
+        href="https://app.luminpdf.com/viewer/66aa3bf2395b8386e5b5af0b"
+      >
+        DOWNLOAD RESUME
+      </a>
+
+      <div class="projects-section section" id="proj-section">
+        <h1 class="projects-heading">Projects</h1>
+        <p>
+          Below are the sample projects that I've worked on using HTML, CSS,
+          JavaScript or ReactJS.
+        </p>
+      </div>
+
+      <div class="project-section-1">
+        <div class="proj-1">
+          <a
+            target="_blank"
+            style="text-decoration: none; color: white"
+            href="https://github.com/mohammedsajidahmed/Quiz-time-project/tree/main/quiz%20time%20project"
+          >
+            <img
+              width="440px"
+              height="225px"
+              src="/project-thumbnails/quiz-time.PNG"
+              alt=""
+            />
+            <h2>Quiz Time</h2>
+          </a>
+          <p>
+            Created a quiz game using HTML, CSS & JavaScript which consists of
+            few questions and has a timer for every question.
+          </p>
+        </div>
+
+        <div class="proj-2">
+          <a
+            target="_blank"
+            style="text-decoration: none; color: white"
+            href="https://github.com/mohammedsajidahmed/Focus-on-today-project/tree/main/Focus%20on%20Today%20html%2C%20css%20%26%20javascript%20project"
+          >
+            <img
+              width="440px"
+              height="225px"
+              src="/project-thumbnails/focus-on-today.PNG"
+              alt=""
+            />
+            <h2>Focus on today</h2>
+          </a>
+          <p>
+            In this project, we can set 3 goals for the day and as each one is
+            completed, we can then mark that goal as completed.
+          </p>
+        </div>
+
+        <div class="proj-3">
+          <a
+            target="_blank"
+            style="text-decoration: none; color: white"
+            href="https://github.com/mohammedsajidahmed/Dice-game/tree/main/Dice%20Game%20JavaScript%20project"
+          >
+            <img
+              width="440px"
+              height="225px"
+              src="/project-thumbnails/dice-game.PNG"
+              alt=""
+            />
+            <h2>Dice game</h2>
+          </a>
+          <p>
+            This Dice Game is based on a two-player. Both players roll the dice
+            and the player who gets the highest phase value will win the game.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-section-2">
+        <div class="section-2-proj-1">
+          <a
+            target="_blank"
+            style="text-decoration: none; color: white"
+            href="https://github.com/mohammedsajidahmed/Bill-split-project/tree/main/Bill%20Split%20JavaScript%20project"
+          >
+            <img
+              width="440px"
+              height="225px"
+              src="/project-thumbnails/bill-split.PNG"
+              alt=""
+            />
+            <h2>Bill Split</h2>
+          </a>
+          <p>
+            This is a simple Bill Splitter project, a streamlined web
+            application that takes the hassle out of dividing expenses among
+            friends!
+          </p>
+        </div>
+        <div class="section-2-proj-2">
+          <a
+            target="_blank"
+            style="text-decoration: none; color: white"
+            href="https://github.com/mohammedsajidahmed/Bill-split-project/tree/main/Bill%20Split%20JavaScript%20project"
+          >
+            <img
+              width="440px"
+              height="225px"
+              src="/project-thumbnails/string-transformers.PNG"
+              alt=""
+            />
+            <h2>String transformer</h2>
+          </a>
+          <p>
+            In this project, the input value is transformed into Lower case,
+            Upper case, Camel case, Pascal case, Snake case, Kebab case and is
+            also trimmed.
+          </p>
+        </div>
+        <div class="section-2-proj-3"></div>
+      </div>
+      <div class="more-projects-section">
+        <h1>More projects on <span>GitHub</span></h1>
+        <p>I love to create visually appealing and responsive websites</p>
+        <a
+          class="github-btn"
+          target="_blank"
+          href="https://github.com/mohammedsajidahmed"
+          >GITHUB</a
+        >
+      </div>
+      <div class="contact-section section" id="cont-section">
+        <h1 class="contact-me">Contact Me</h1>
+        <p class="contact-details">Below are the details to reach out to me!</p>
+
+        <div class="contacts-container">
+          <div class="address">
+            <img src="/icons8-address-60.png" alt="" />
+            <h1>ADDRESS</h1>
+            <p>Hyderabad, India</p>
+          </div>
+
+          <div class="contact">
+            <img src="/icons8-phone-64.png" alt="" />
+            <h1>CONTACT NUMBER</h1>
+            <p>+91 7799639413</p>
+          </div>
+
+          <div class="email">
+            <img src="/icons8-email-60.png" alt="" />
+            <h1>EMAIL ADDRESS</h1>
+            <p>ahmedsajid278@gmail.com</p>
+          </div>
+
+          <div class="resume-link">
+            <img src="/icons8-resume-60.png" alt="" />
+            <h1>DOWNLOAD RESUME</h1>
+            <p>
+              <a
+                href="https://app.luminpdf.com/viewer/66aa3bf2395b8386e5b5af0b"
+                target="_blank"
+                >resume link</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="socials-section">
+        <div class="questions">
+          <p class="question">Have a Question?</p>
+          <button class="click-btn">CLICK HERE</button>
+        </div>
+        <div class="socials">
+          <p>Find me on</p>
+
+          <img src="icons8-youtube-logo-94.png" alt="" />
+          <a href="https://www.linkedin.com/in/sajid-ahmed-mohammed-a96825177/">
+            <img src="icons8-linkedin-48.png" alt="" /> </a
+          ><img src="icons8-twitter.svg" alt="" /><img
+            src="icons8-facebook.svg"
+            alt=""
+          /><img src="icons8-instagram-logo-64.png" alt="" />
+        </div>
+      </div>
+
+      <footer>
+        Copyright &copy; All rights reserved | This portfolio is made with 💖 by
+        sajid
+      </footer>
+    </section>
+  </body>
+</html>
